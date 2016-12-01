@@ -1,0 +1,14 @@
+---
+name: demo-vpc
+template:
+  name: base/vpc
+  sha: bd069c7799a80c6b14f5e745555e3f15c0abd65d
+defaults: []
+overrides:
+  params:
+  - VpcName=demo-vpc
+  tags: []
+params:
+- VpcName=demo-vpc
+tags: []
+template_url: https://s3.amazonaws.com/operable-demo/definition/demo-vpc/1480579049/template.yaml
