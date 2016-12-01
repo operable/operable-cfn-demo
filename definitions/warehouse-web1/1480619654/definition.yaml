@@ -1,0 +1,17 @@
+---
+name: warehouse-web1
+template:
+  name: warehouse/web
+  sha: 789fda5d5c92394d46de710454d363ec8b452d2e
+defaults:
+- name: web
+  params:
+    Port: '80'
+  tags: {}
+overrides:
+  params: []
+  tags: []
+params:
+- Port=80
+tags: []
+template_url: https://s3.amazonaws.com/operable-demo/definition/warehouse-web1/1480619654/template.yaml
